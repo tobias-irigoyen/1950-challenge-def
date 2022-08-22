@@ -49,53 +49,44 @@
         "show_text_below": true
       }
     },
-    "image_banner": {
-      "type": "image-banner",
-      "disabled": true,
+    "166120283369dcdef1": {
+      "type": "custom-featured-items",
       "blocks": {
-        "heading": {
-          "type": "heading",
+        "1661202833ae4df4fc-0": {
+          "type": "link_details",
           "settings": {
-            "heading": "Image banner",
-            "heading_size": "h0"
+            "item_title": "High-Quality Codes",
+            "link_label": "Learn more",
+            "link_url": "",
+            "item_icon": "quality"
           }
         },
-        "text": {
-          "type": "text",
+        "2e7bc2de-1600-47bf-96ba-dbb5193c1c70": {
+          "type": "link_details",
           "settings": {
-            "text": "Give customers details about the banner image(s) or content on the template.",
-            "text_style": "body"
+            "item_title": "Fast Delivery Schedules",
+            "link_label": "Learn more",
+            "link_url": "#",
+            "item_icon": "delivery"
           }
         },
-        "button": {
-          "type": "buttons",
+        "ee9fd125-757b-4875-80a9-fa6454e7cff9": {
+          "type": "link_details",
           "settings": {
-            "button_label_1": "Shop all",
-            "button_link_1": "shopify:\/\/collections\/all",
-            "button_style_secondary_1": true,
-            "button_label_2": "",
-            "button_link_2": "",
-            "button_style_secondary_2": false
+            "item_title": "Cybersecurity Oriented",
+            "link_label": "Learn more",
+            "link_url": "#",
+            "item_icon": "cybersecurity"
           }
         }
       },
       "block_order": [
-        "heading",
-        "text",
-        "button"
+        "1661202833ae4df4fc-0",
+        "2e7bc2de-1600-47bf-96ba-dbb5193c1c70",
+        "ee9fd125-757b-4875-80a9-fa6454e7cff9"
       ],
       "settings": {
-        "image": "{{ shop.brand.cover_image }}",
-        "image_overlay_opacity": 40,
-        "image_height": "large",
-        "adapt_height_first_image": false,
-        "desktop_content_position": "bottom-center",
-        "show_text_box": false,
-        "desktop_content_alignment": "center",
-        "color_scheme": "background-1",
-        "mobile_content_alignment": "center",
-        "stack_images_on_mobile": false,
-        "show_text_below": false
+        "items_to_show": 3
       }
     },
     "featured_collection": {
@@ -160,44 +151,13 @@
         "padding_top": 0,
         "padding_bottom": 0
       }
-    },
-    "166120283369dcdef1": {
-      "type": "custom-featured-items",
-      "blocks": {
-        "1661202833ae4df4fc-0": {
-          "type": "link_details",
-          "settings": {
-            "item_title": "Item",
-            "link_label": "Link",
-            "link_url": "",
-            "item_icon": "cybersecurity"
-          }
-        },
-        "2e7bc2de-1600-47bf-96ba-dbb5193c1c70": {
-          "type": "link_details",
-          "settings": {
-            "item_title": "Item 2",
-            "link_label": "Link 2",
-            "link_url": "#",
-            "item_icon": "cybersecurity"
-          }
-        }
-      },
-      "block_order": [
-        "1661202833ae4df4fc-0",
-        "2e7bc2de-1600-47bf-96ba-dbb5193c1c70"
-      ],
-      "settings": {
-        "items_to_show": 3
-      }
     }
   },
   "order": [
     "166120078669106525",
-    "image_banner",
+    "166120283369dcdef1",
     "featured_collection",
     "1661198381e42d44ee",
-    "16612002299be4f421",
-    "166120283369dcdef1"
+    "16612002299be4f421"
   ]
 }
