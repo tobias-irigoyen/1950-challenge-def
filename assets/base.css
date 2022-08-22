@@ -2943,7 +2943,7 @@ header a.header__menu-item {
   text-align: center;
 }
 
-ul.shopify-section.section .collection ul.grid.contains-card li {
+.shopify-section.section .collection ul.grid.contains-card li {
   border: 1px solid #D7D7D7;
   padding: 5px;
 }
