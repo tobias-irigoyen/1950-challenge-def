@@ -2943,6 +2943,18 @@ header a.header__menu-item {
   text-align: center;
 }
 
+.shopify-section.section .collection .collection__title.title-wrapper h2 {
+  font-family: 'PlayfairDisplay Regular';
+  color: #000;
+  font-size: 50px;
+}
+
+.shopify-section.section .collection .collection__description.body p {
+  font-family: 'Domine Regular';
+  color: #929292;
+  font-size: 26px;
+}
+
 .shopify-section.section .collection ul.grid.contains-card li {
   border: 1px solid #D7D7D7;
   padding: 5px;
