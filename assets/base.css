@@ -2926,8 +2926,11 @@ details-disclosure > details {
 
 /* Header styles */
 
-header {
+header.header {
   max-width: unset;
+}
+header.header ul.list-menu {
+  margin-left: 130px;
 }
 
 header a.header__menu-item {
