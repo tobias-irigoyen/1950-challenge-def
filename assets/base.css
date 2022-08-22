@@ -2947,3 +2947,41 @@ header a.header__menu-item {
   border: 1px solid #D7D7D7;
   padding: 5px;
 }
+
+.shopify-section.section .collection .card__information-top-col {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 15px;
+}
+.shopify-section.section .collection .card__information-top-col h3{
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+  font-size: 16px;
+}
+.shopify-section.section .collection .card__information-top-col .price span {
+  font-family: 'Cambay Bold';
+  font-size: 24px;
+  color: #4CA36F;
+}
+
+
+.shopify-section.section .collection .card__information-bottom-col ul {
+  padding: 0;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.shopify-section.section .collection .card__information-bottom-col ul.product-tags li {
+  list-style-type: none;
+  background-color: #D8BE8C;
+  border-radius: 4px;
+  padding: 2px 6px;
+  margin-right: 7px;
+}
+.shopify-section.section .collection .card__information-bottom-col ul li a {
+  text-decoration: none;;
+  color: #FFF;
+  font-family: 'Cambay Bold';
+  font-size: 16px;
+}
