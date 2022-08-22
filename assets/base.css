@@ -2935,3 +2935,15 @@ header a.header__menu-item {
   font-size: 14px;
   text-transform: uppercase;
 }
+
+
+/* Featured Collection Section */
+
+.shopify-section.section .collection .collection__title.title-wrapper {
+  text-align: center;
+}
+
+ul.shopify-section.section .collection ul.grid.contains-card li {
+  border: 1px solid #D7D7D7;
+  padding: 5px;
+}
