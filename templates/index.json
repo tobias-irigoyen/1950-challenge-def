@@ -105,10 +105,10 @@
     "16612002299be4f421": {
       "type": "custom-liquid",
       "settings": {
-        "custom_liquid": "<footer id=\"custom-footer>\n<h2>My Beautiful Footer <\/h2>\n<\/footer>",
+        "custom_liquid": "<footer id=\"custom-footer\">\n<h2>My Beautiful Footer <\/h2>\n<\/footer>",
         "color_scheme": "background-1",
-        "padding_top": 32,
-        "padding_bottom": 32
+        "padding_top": 0,
+        "padding_bottom": 0
       }
     }
   },
