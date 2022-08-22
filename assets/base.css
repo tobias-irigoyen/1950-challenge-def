@@ -2924,3 +2924,8 @@ details-disclosure > details {
 }
 
 
+/* Header styles */
+
+header {
+  max-width: unset;
+}
