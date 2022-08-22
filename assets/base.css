@@ -3006,5 +3006,50 @@ footer#custom-footer h2 {
 /* Top Banner styles */
 
 .custom-banner {
-  
+
+}
+
+.custom-banner .banner__box.content-container {
+  background-color: transparent;
+}
+.custom-banner h2 {
+  font-family: 'PlayfairDisplay Regular';
+  color: #000;
+  font-size: 77px;
+}
+
+.custom-banner h2 {
+  font-family: 'PlayfairDisplay Regular';
+  color: #000;
+  font-size: 77px;
+}
+
+.custom-banner .banner__text.subtitle {
+  font-family: 'Cambay Regular';
+  color: #000;
+  font-size: 28px;
+  text-transform: uppercase;
+}
+
+.custom-banner .banner__buttons a::before, 
+.custom-banner .banner__buttons a::after {
+  content: none;
+}
+
+.custom-banner .banner__buttons a {
+  font-family: 'Cambay Bold';
+  font-size: 28px;
+  text-transform: uppercase;
+  color: #FFF;
+  border: 2px solid #FFF;
+  padding-top: 8px;
+  background-color: transparent;
+}
+ 
+
+.custom-banner .banner__media.media img {
+  height: 470px;
+  width: auto;
+  object-fit: unset;
+  margin-left: 180px;
 }
