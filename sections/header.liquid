@@ -372,6 +372,7 @@
     {%- if request.page_type == 'index' -%}
       <h1 class="header__heading">
     {%- endif -%}
+    {% comment %}
         <a href="{{ routes.root_url }}" class="header__heading-link link link--text focus-inset">
           {%- if section.settings.logo != blank -%}
             {%- assign logo_alt = section.settings.logo.alt | default: shop.name | escape -%}
@@ -387,6 +388,10 @@
             <span class="h2">{{ shop.name }}</span>
           {%- endif -%}
         </a>
+        
+    {% endcomment %}
+        <img src="{{ 'fsl-logo.svg' | asset_url }}" alt="logo" width="{{ section.settings.logo_width }}" />
+        
     {%- if request.page_type == 'index' -%}
       </h1>
     {%- endif -%}
