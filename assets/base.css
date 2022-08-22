@@ -2992,6 +2992,8 @@ header a.header__menu-item {
 footer#custom-footer {
   background-color: #393939;
   text-align: center;
+  padding-top: 30px;
+  padding-bottom: 30px;
 }
 footer#custom-footer h2 {
   font-family: 'PlayfairDisplay Regular';
