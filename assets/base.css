@@ -2985,3 +2985,16 @@ header a.header__menu-item {
   font-family: 'Cambay Bold';
   font-size: 16px;
 }
+
+
+/* Custom Footer styles */
+
+footer#custom-footer {
+  background-color: #393939;
+  text-align: center;
+}
+footer#custom-footer h2 {
+  font-family: 'PlayfairDisplay Regular';
+  color: #FFF;
+  font-size: 32px;
+}
