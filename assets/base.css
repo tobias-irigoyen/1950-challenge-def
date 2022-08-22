@@ -2886,3 +2886,41 @@ details-disclosure > details {
 .font-body-bold {
   font-weight: var(--font-body-weight-bold);
 }
+
+
+/* Custom styles */
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+@font-face {
+  font-family: 'Cambay Regular';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Cambay Regular'), url('Cambay-Regular.woof2') format('woff2');
+}
+@font-face {
+  font-family: 'Cambay Bold';
+  font-style: normal;
+  font-weight: 700;
+  src: local('Cambay Bold'), url('Cambay-Bold.woof2') format('woff2');
+}
+@font-face {
+  font-family: 'Domine Regular';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Domine Regular'), url('Domine-Regular.woof2') format('woff2');
+}
+@font-face {
+  font-family: 'Domine Bold';
+  font-style: normal;
+  font-weight: 700;
+  src: local('Domine Bold'), url('Domine-Bold.woof2') format('woff2');
+}
+@font-face {
+  font-family: 'PlayfairDisplay Regular';
+  font-style: normal;
+  font-weight: normal;
+  src: local('PlayfairDisplay Regular'), url('PlayfairDisplay-Regular.woof2') format('woff2');
+}
+
+
